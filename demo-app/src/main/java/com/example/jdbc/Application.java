@@ -20,11 +20,9 @@ public class Application {
 			System.out.print(" | "+resultSet.getString(2));
 			System.out.println(" | "+resultSet.getString(3));
 		}
+		
 		resultSet.close();
 		statement.close();
 		connection.close();
-		
-
 	}
-
 }
